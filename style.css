@@ -1,14 +1,65 @@
-#hello {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+@import "./node_modules/animate.css/animate.css";
+
+body {
+  margin: 0;
 }
 
-.aboutBtn {
+#container-head {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin-top: 18rem;
+  margin-left: 10rem;
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}
+
+.main-head--name {
+  padding-left: 0.5rem;
+  color: #0077b6;
+  animation: fadeIn;
+  animation-duration: 4s;
+}
+
+.main-head--intro {
+  /* align-self: flex-start; */
+  /* padding-left: 21.2rem; */
+  margin: 0;
+}
+
+.cta-btn {
+  margin-top: 3rem;
+  padding: 0.5rem;
   text-decoration: none;
+  border: 2px solid #0077b6;
+  border-radius: 1.2rem;
+  color: #0077b6;
+  width: 10rem;
+  text-align: center;
+  animation: fadeInLeft;
+  animation-duration: 4s;
 }
-/* 
-#greet {
-  align-items: center;
-} */
 
-#myName {
-  color: aqua;
+.cta-btn:active,
+.cta-btn:hover {
+  /* animation: zoomIn; */
+  color: white;
+  background-color: #023e8a;
+  transition: 1s;
+}
+
+#about-me {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  background-color: #0077b6;
+  height: 100vh;
+}
+.about-me--title {
+  padding-top: 3rem;
+  text-align: center;
+  color: white;
 }
