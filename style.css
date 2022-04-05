@@ -80,7 +80,7 @@ body {
   overflow: hidden;
 }
 
-#about-me::before {
+/* #about-me::before {
   position: absolute;
   content: "";
   bottom: 0;
@@ -88,8 +88,8 @@ body {
   height: 20rem;
   border-bottom: 15rem solid white;
   border-right: 135rem solid transparent;
-}
-.about-me--title {
+} */
+/* .about-me--title {
   padding-top: 3rem;
   text-align: center;
   font-size: 3rem;
@@ -115,11 +115,11 @@ body {
 .about-me__text {
   text-align: center;
   /* margin-top: 2rem; */
-  /* margin-left: 2rem; */
-  width: 35rem;
+/* margin-left: 2rem; */
+/* width: 35rem;
   color: white;
 }
-
+*/
 .about-me__resume-btn {
   position: relative;
   align-self: center;
@@ -277,7 +277,7 @@ body {
   overflow: hidden;
 }
 
-#contact-me::before {
+/* #contact-me::before {
   position: absolute;
   content: "";
   top: 0;
@@ -286,7 +286,7 @@ body {
   height: 0;
   border-top: 15rem solid white;
   border-left: 135rem solid transparent;
-}
+} */
 
 .contact-me--title {
   padding-top: 10rem;
@@ -405,4 +405,101 @@ footer {
   font-family: "Roboto", sans-serif;
   color: #adb5bd;
   font-size: smaller;
+}
+
+@media (max-width: 375px) {
+  #container-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+  }
+  .cta-btn {
+    width: 8rem;
+    font-size: small;
+  }
+  #about-me {
+    font-size: small;
+  }
+  .about-me--title {
+    margin-top: 2rem;
+    /* padding-top: 2rem; */
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+  }
+  .about-me--content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me__content-text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* display: flex;
+    font-size: small;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* font-size: x-small; */
+  }
+
+  .about-me__text {
+    /* text-align: center; */
+    align-self: center;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    /* margin-top: 2rem; */
+    /* margin-left: 2rem; */
+    /* width: 35rem; */
+    color: white;
+  }
+  .about-me__resume-btn {
+    width: 8rem;
+    font-size: small;
+    margin: 0;
+    align-self: center;
+    margin-top: 4rem;
+  }
+  .about-me__image {
+    margin: 0;
+    padding: 0;
+    margin-top: 3rem;
+    width: 15rem;
+    height: 10rem;
+  }
+  #projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-main-title {
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+    background-color: white;
+  }
+
+  .projects-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-img {
+    margin: 0;
+    padding: 0;
+    width: 10rem;
+    height: 7rem;
+  }
 }
