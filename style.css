@@ -370,11 +370,21 @@ footer {
 .main-footer__link--arrow {
   justify-self: center;
   grid-column-end: span 2;
+  transition: padding-bottom 0.5s;
+}
+
+.main-footer__link--arrow:hover {
+  padding-bottom: 1rem;
 }
 
 .main-footer__link {
   grid-row-start: 2;
   justify-self: center;
+  transition: padding-bottom 0.5s;
+}
+
+.main-footer__link:hover {
+  padding-bottom: 1rem;
 }
 
 .main-footer__madeby {
