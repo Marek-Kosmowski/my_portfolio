@@ -89,7 +89,7 @@ body {
   border-bottom: 15rem solid white;
   border-right: 135rem solid transparent;
 } */
-/* .about-me--title {
+.about-me--title {
   padding-top: 3rem;
   text-align: center;
   font-size: 3rem;
@@ -115,11 +115,11 @@ body {
 .about-me__text {
   text-align: center;
   /* margin-top: 2rem; */
-/* margin-left: 2rem; */
-/* width: 35rem;
+  /* margin-left: 2rem; */
+  /* width: 35rem;
   color: white;
 }
-*/
+
 .about-me__resume-btn {
   position: relative;
   align-self: center;
@@ -163,7 +163,6 @@ body {
   align-self: end;
   width: 25rem;
   height: 22rem;
-  /* margin-top: 2rem; */
   margin-right: 20rem;
   border-radius: 10%;
   overflow: hidden;
@@ -233,7 +232,6 @@ body {
 }
 
 .project--btn {
-  font-family: "Roboto", sans-serif;
   width: 10rem;
   border: 3px solid #0077b6;
   background: transparent;
@@ -407,7 +405,7 @@ footer {
   font-size: smaller;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   #container-head {
     display: flex;
     justify-content: center;
