@@ -86,7 +86,6 @@ body {
 #about-me {
   position: relative;
   font-family: "Roboto", sans-serif;
-  /* font-size: small; */
   background-color: #0077b6;
   height: 80vh;
   overflow: hidden;
@@ -111,7 +110,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: medium;
+  /* font-size: medium; */
   margin-top: 2rem;
   padding: 0;
   text-align: center;
@@ -480,5 +479,74 @@ footer {
   }
 }
 /* pojawia sie wciecie w sekcji about-me i contact */
-/* @media (min-width: 820px) {
-} */
+@media (min-width: 825px) {
+  #container-head {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 18rem;
+    margin-left: 10rem;
+  }
+
+  .main-head__title {
+    font-size: 2rem;
+  }
+
+  .main-head--name {
+    padding-left: 0.5rem;
+    color: #0077b6;
+    animation: fadeIn;
+    animation-duration: 3s;
+  }
+
+  .main-head--intro {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .cta-btn {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+  }
+  #about-me::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 0;
+    height: 20rem;
+    border-bottom: 20rem solid white;
+    border-right: 135rem solid transparent;
+  }
+  .about-me--content {
+    /* flex-direction: row; */
+    justify-content: space-between;
+  }
+  .about-me--title {
+    font-size: 2rem;
+  }
+  .about-me__content-text {
+    align-self: flex-start;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 40%;
+    margin-left: 8rem;
+  }
+  .about-me__text {
+    font-size: 1rem;
+    justify-self: flex-start;
+    align-self: center;
+  }
+  .about-me__image {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    margin-top: 3rem;
+    width: 16rem;
+    border-radius: 10%;
+    height: 15rem;
+    overflow: hidden;
+  }
+  .about-me__resume-btn {
+    align-self: center;
+  }
+}
