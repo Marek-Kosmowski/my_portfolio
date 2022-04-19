@@ -434,7 +434,8 @@ footer {
     /* flex-grow: 2; */
     margin: 2rem;
     width: 70%;
-    height: 18rem;
+    height: 40%;
+    /* height: 18rem; */
   }
   .about-me__resume-btn {
     width: 10rem;
@@ -506,47 +507,96 @@ footer {
   .cta-btn {
     margin-top: 2.5rem;
     font-size: 1.5rem;
+    padding: 8px 16px;
   }
+  /* #about-me {
+  height: ;
+} */
   #about-me::before {
     position: absolute;
     content: "";
     bottom: 0;
     width: 0;
-    height: 20rem;
-    border-bottom: 20rem solid white;
-    border-right: 135rem solid transparent;
+    border-bottom: 17rem solid white;
+    border-right: 120rem solid transparent;
   }
   .about-me--content {
-    /* flex-direction: row; */
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 15rem 5rem;
+    justify-items: center;
   }
   .about-me--title {
     font-size: 2rem;
   }
   .about-me__content-text {
-    align-self: flex-start;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    width: 40%;
-    margin-left: 8rem;
+    margin: 0;
   }
   .about-me__text {
+    margin: 0;
+    width: 80%;
     font-size: 1rem;
-    justify-self: flex-start;
-    align-self: center;
   }
   .about-me__image {
-    align-self: flex-end;
     margin: 0;
     padding: 0;
-    margin-top: 3rem;
-    width: 16rem;
-    border-radius: 10%;
+    width: 18rem;
     height: 15rem;
+    border-radius: 10%;
     overflow: hidden;
   }
   .about-me__resume-btn {
-    align-self: center;
+    margin: 0;
+    align-self: start;
+  }
+  .projects-main-title {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 0;
+  }
+  /* .projects-content {
+    margin-top: 1rem;
+  } */
+  .project--content__list {
+    grid-template-columns: 30rem 10rem 10rem;
+    grid-template-rows: repeat(3, 10rem);
+  }
+  .project--title {
+    grid-column-start: 2;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .project--description {
+    grid-column-start: 2;
+    font-size: 1rem;
+  }
+  .project--img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+  }
+  .project--btn {
+    width: 8rem;
+    font-size: 1rem;
+  }
+  #contact-me {
+    position: relative;
+  }
+  #contact-me::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 15rem solid white;
+    border-left: 135rem solid transparent;
+  }
+  .contact-me--title {
+    padding-top: 15rem;
+    font-size: 2rem;
+  }
+  .contact-me__content {
+    margin-top: 5rem;
   }
 }
