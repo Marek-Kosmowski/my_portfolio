@@ -217,10 +217,11 @@ body {
 }
 
 .project--description {
-  font-size: 1rem;
+  font-size: 0.6rem;
   grid-row-start: 2;
   grid-column-end: span 2;
   justify-self: center;
+  text-align: center;
 }
 
 .project--img {
@@ -452,7 +453,7 @@ footer {
     font-size: 1.2rem;
   }
   .project--description {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
   .project--img {
     justify-content: center;
@@ -517,7 +518,7 @@ footer {
     content: "";
     bottom: 0;
     width: 0;
-    border-bottom: 17rem solid white;
+    border-bottom: 13rem solid white;
     border-right: 120rem solid transparent;
   }
   .about-me--content {
@@ -608,7 +609,7 @@ footer {
     right: 0;
     width: 0;
     height: 0;
-    border-top: 15rem solid white;
+    border-top: 13rem solid white;
     border-left: 135rem solid transparent;
   }
   .contact-me--title {
@@ -620,5 +621,79 @@ footer {
   }
 }
 @media (min-width: 1080px) {
-  
+  .main-head__title {
+    font-size: 3.5rem;
+  }
+  .main-head--intro {
+    font-size: 3.5rem;
+  }
+  #about-me {
+    height: 90vh;
+  }
+  .about-me--title {
+    font-size: 3.5rem;
+  }
+  .about-me__content-text {
+    width: 80%;
+    height: 100%;
+    /* margin-left: 10rem; */
+    align-self: start;
+    justify-self: end;
+  }
+  .about-me__resume-btn {
+    font-size: 1.5rem;
+    /* justify-self: center;
+    align-self: center; */
+    margin-left: 10rem;
+  }
+  .about-me__image {
+    width: 25rem;
+    height: 20rem;
+    align-self: flex-start;
+  }
+
+  .projects-main-title {
+    font-size: 3.5rem;
+  }
+
+  .project--title {
+    font-size: 2rem;
+  }
+  .project--description {
+    text-align: center;
+  }
+  .projects-content {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  .project--content__list {
+    column-gap: 10rem;
+    margin-bottom: 5rem;
+  }
+  .project--img {
+    width: 30rem;
+  }
+  .project--btn {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .project--btn__container {
+    width: 10rem;
+  }
+  #contact-me {
+    height: 90vh;
+  }
+  .contact-me__content{
+    margin-top: 6rem;
+  }
+  .contact-me--title {
+    font-size: 3.5rem;
+  }
+  .contact-me__text {
+    font-size: 2rem;
+  }
+  .contact-me__btn {
+    font-size: 1.5rem;
+  }
 }
