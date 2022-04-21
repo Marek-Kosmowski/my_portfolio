@@ -13,8 +13,6 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  /* font-size: x-small; */
-  /* font-size: 2rem; */
   height: 95vh;
   margin: 0;
   padding: 0;
@@ -59,7 +57,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  /* border-radius: 0.8rem; */
   background-color: #0077b6;
   width: 0;
   height: 100%;
@@ -110,7 +107,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* font-size: medium; */
   margin-top: 2rem;
   padding: 0;
   text-align: center;
@@ -191,12 +187,6 @@ body {
 .projects-main-title {
   font-size: 1.2rem;
 }
-
-/* .projects-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around
-} */
 
 .project--content__list {
   list-style: none;
@@ -432,11 +422,9 @@ footer {
     font-size: 1rem;
   }
   .about-me__image {
-    /* flex-grow: 2; */
     margin: 2rem;
     width: 70%;
     height: 40%;
-    /* height: 18rem; */
   }
   .about-me__resume-btn {
     width: 10rem;
@@ -480,7 +468,6 @@ footer {
     font-size: medium;
   }
 }
-/* pojawia sie wciecie w sekcji about-me i contact */
 @media (min-width: 825px) {
   #container-head {
     justify-content: flex-start;
@@ -510,9 +497,7 @@ footer {
     font-size: 1.5rem;
     padding: 8px 16px;
   }
-  /* #about-me {
-  height: ;
-} */
+
   #about-me::before {
     position: absolute;
     content: "";
@@ -590,8 +575,6 @@ footer {
 
   .project--btn__container {
     grid-row-start: 3;
-    /* justify-self: center;
-    align-self: start; */
   }
   .project--btn {
     width: 8rem;
@@ -636,14 +619,11 @@ footer {
   .about-me__content-text {
     width: 80%;
     height: 100%;
-    /* margin-left: 10rem; */
     align-self: start;
     justify-self: end;
   }
   .about-me__resume-btn {
     font-size: 1.5rem;
-    /* justify-self: center;
-    align-self: center; */
     margin-left: 10rem;
   }
   .about-me__image {
@@ -684,7 +664,7 @@ footer {
   #contact-me {
     height: 90vh;
   }
-  .contact-me__content{
+  .contact-me__content {
     margin-top: 6rem;
   }
   .contact-me--title {
